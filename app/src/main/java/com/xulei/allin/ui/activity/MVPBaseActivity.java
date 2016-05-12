@@ -9,8 +9,8 @@ import com.xulei.allin.presenter.BasePresenter;
  * Created by xulei on 2016/5/12.
  * 通过Activity的生命周期管理其与Presenter的关系
  */
-public abstract class MVPBaseActivity<V, T extends BasePresenter<V>> extends Activity {
-    private T mPresenter;
+public abstract class MVPBaseActivity<V, T extends BasePresenter<V>> extends BaseActivity {
+    protected T mPresenter;
 
     @SuppressWarnings("unchecked")
     @Override

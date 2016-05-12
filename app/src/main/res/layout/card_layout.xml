@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#095B5C"
+        android:gravity="center"
+        android:text="每日笑话"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <com.xulei.allin.widget.cardview.CardSlidePanel
+            android:id="@+id/image_slide_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            card:bottomMarginTop="40dp"
+            card:yOffsetStep="22dp">
+
+            <LinearLayout
+                android:id="@+id/card_bottom_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/id_card_next_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#0CB0B2"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="下一个"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <com.xulei.allin.widget.cardview.CardItemView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <com.xulei.allin.widget.cardview.CardItemView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <com.xulei.allin.widget.cardview.CardItemView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <com.xulei.allin.widget.cardview.CardItemView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+        </com.xulei.allin.widget.cardview.CardSlidePanel>
+    </RelativeLayout>
+
+</LinearLayout>
