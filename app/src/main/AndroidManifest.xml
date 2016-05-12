@@ -46,6 +46,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.activity.LaughActivity" />
+        <activity android:name=".ui.activity.IdCardActivity" />
+        <activity android:name=".ui.activity.ErrorActivity" />
     </application>
 
 </manifest>

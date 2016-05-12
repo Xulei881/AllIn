@@ -28,7 +28,6 @@ public class CardItemView extends LinearLayout {
         super(context, attrs, defStyle);
         inflate(context, R.layout.card_item, this);
         contentTv = (TextView) findViewById(R.id.id_card_item_content_tv);
-
     }
 
     public void fillData(CardDataItem itemData) {

@@ -8,4 +8,5 @@ public class AppConstants {
     public static final String BASE_URL = "http://www.test.com";
 
     public static final String LAUGH_KEY = "3b521ac4c472592705a792b65a4fa18d";
+    public static final String ID_CARD_KEY = "32eb6e6459ba733c46871a6d0d2cd220";
 }
